@@ -1,0 +1,190 @@
+
+/* General page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F1F5F9;
+  color: #333333;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #123456;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #1D4ED8;
+  font-size: 23px;
+}
+
+h3 {
+  color: #123456;
+}
+
+/* Search input */
+input {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px;
+  border: 1px solid #94A3B8;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* Search button */
+button {
+  padding: 12px 18px;
+  margin: 8px;
+  background-color: #123456;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1D4ED8;
+}
+
+/* Vehicle and details cards */
+.bike-card,
+.details-card {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow-wrap: anywhere;
+}
+
+/* Vehicle information */
+.bike-info h2 {
+  color: #B8860B;
+  font-size: 26px;
+}
+
+.bike-icon {
+  font-size: 50px;
+}
+
+/* Status messages */
+.warning {
+  color: #DC2626;
+  font-weight: bold;
+}
+
+.success {
+  color: #15803D;
+  font-weight: bold;
+}
+
+/* Challan details */
+.challan-item {
+  border: 1px solid #CBD5E1;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #F8FAFC;
+}
+
+/* Dropdown */
+select {
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #94A3B8;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  #root {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  .bike-card,
+  .details-card {
+    padding: 16px;
+    margin: 15px auto;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  #root {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  input {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .bike-card,
+  .details-card {
+    padding: 12px;
+    margin: 12px auto;
+  }
+
+  .bike-info h2 {
+    font-size: 21px;
+  }
+
+  .bike-icon {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  select {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
