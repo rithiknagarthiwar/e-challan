@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div>
-      <h1>e-Challan Vehicle Dashboard</h1>
+      <h1>e-Challan </h1>
 
       <h2>Enter Vehicle Registration Number</h2>
 
